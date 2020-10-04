@@ -12,3 +12,5 @@ git config --global user.name "name"
 git config --global user.email "email"
 
 đẩy code lên sever( local repository => remote repository): git push -u origin master. lần đầu chạy như trên, lần sau thì chạy git push là đc
+
+Tạo ra 1 branch mới: git branch -b + tên branch
