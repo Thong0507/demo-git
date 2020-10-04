@@ -1,16 +1,20 @@
-khởi tạo git: git init 
-kết nối project vs repo: git remote add origin + link github của mình
+Khởi tạo git: git init 
+Kết nối project vs repo: git remote add origin + link github của mình
 
-kiểm tra trạng thái của source: git status: màu đỏ là đã thay đổi nhưng chưa save(working copy), xanh là đã lưu(staging area)
+Kiểm tra trạng thái của source: git status: màu đỏ là đã thay đổi nhưng chưa save(working copy), xanh là đã lưu(staging area)
 
-git add. là save tất cả các file, muốn save từng file thì git add + tên file (working copy => staging area)
+Git add. là save tất cả các file, muốn save từng file thì git add + tên file (working copy => staging area)
 
-commit những thay đổi: git commit -m " message"
+Commit những thay đổi: git commit -m " message"
 
-lần đầu xài git cần chayjy 2 lệnh này:
+Lần đầu xài git cần chayjy 2 lệnh này:
 git config --global user.name "name"
 git config --global user.email "email"
 
-đẩy code lên sever( local repository => remote repository): git push -u origin master. lần đầu chạy như trên, lần sau thì chạy git push là đc
+Đẩy code lên sever( local repository => remote repository): git push -u origin master. lần đầu chạy như trên, lần sau thì chạy git push là đc
 
-Tạo ra 1 branch mới: git branch -b + tên branch
+Tạo ra 1 branch mới: git checkout -b + tên branch
+
+Chuyển branch: git branch + tên branch 
+
+cập nhật code từ remote về local: git pull 
