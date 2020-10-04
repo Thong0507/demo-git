@@ -7,3 +7,4 @@ console.log("GTT");
 // git add. là save tất cả các file, muốn save từng file thì git add + tên file (working copy => staging area)
 
 console.log("Demo-GIT")
+console.log("Demo-GIT234g")
