@@ -20,3 +20,11 @@ Chuyển branch: git branch + tên branch
 Cập nhật code từ remote về local: git pull 
 
 git merge master : đồng bộ code từ master qua branch của mình 
+
+Cách fix conflict khi tạo pull request:
+B1: git checkout master
+B2: git pull 
+B3: git checkout branch-conflict
+B4: git merge master
+B5: git conflict(chọn 1 trong 3 cái)
+B6: git add, git commit, git push
