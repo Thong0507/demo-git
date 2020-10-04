@@ -5,3 +5,5 @@ console.log("GTT");
 // kiểm tra trạng thái của source: git status: màu đỏ là đã thay đổi nhưng chưa save(working copy), xanh là đã lưu(staging area)
 
 // git add. là save tất cả các file, muốn save từng file thì git add + tên file (working copy => staging area)
+
+// alo alo 
