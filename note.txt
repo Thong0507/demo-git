@@ -19,4 +19,4 @@ Chuyển branch: git branch + tên branch
 
 Cập nhật code từ remote về local: git pull 
 
-git merge master 
+git merge master : đồng bộ code từ master qua branch của mình 
